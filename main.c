@@ -53,7 +53,4 @@ int main(void){
     
     //メモリの解放
     free( team );
-    //終わり！
-    
-    
 }
