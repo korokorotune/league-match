@@ -7,6 +7,7 @@ int main(void){
     int n,i,j;
     int *team;
     char *a,*b,*tmp;
+    printf("チーム数 = ");
     scanf( "%d", &n );
     team = (int *)malloc( sizeof( int ) * n );	//配列teamを動的確保
     
